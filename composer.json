@@ -1,0 +1,26 @@
+{
+    "name": "alamin/vision-ai",
+    "autoload": {
+        "psr-4": {
+            "VisionAi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Al-Amin Firdows",
+            "email": "alaminfirdows@gmail.com"
+        }
+    ],
+    "require": {
+        "openai-php/client": "^0.8.1",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.8",
+        "php-ffmpeg/php-ffmpeg": "^1.2",
+        "symfony/process": "^7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
