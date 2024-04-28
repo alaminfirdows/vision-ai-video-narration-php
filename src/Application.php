@@ -16,7 +16,7 @@ class Application
     public function __construct($basePath)
     {
         $this->basePath = $basePath;
-        $this->openAi = OpenAI::client('');
+        $this->openAi = OpenAI::client('YOUR_API_KEY'); // Add your OpenAI API key here
     }
 
     public function run()
